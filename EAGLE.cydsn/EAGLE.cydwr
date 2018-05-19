@@ -326,10 +326,12 @@
       <Data key="b0162966-0060-4af5-82d1-fcb491ad7619/be0a0e37-ad17-42ca-b5a1-1a654d736358" value="UART_IntClock" />
     </Group>
     <Group key="Pin">
+      <Data key="0ecfcfff-f7a1-4893-8552-17c72b9f3790" value="GND_Y" />
       <Data key="5f3bd1eb-ba8d-4ade-b136-830e09f7132e" value="BLEtx" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="SW" />
       <Data key="9b35b31c-3d61-4857-974c-c75d460d7fc0" value="BLErx" />
       <Data key="15a716d0-db9e-426d-8bec-0b97c1fd4b47" value="Tx_1" />
+      <Data key="77acfa54-2935-4032-b56b-8e9a2adae63d" value="GND_X" />
       <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx" />
       <Data key="a0875ab6-bcde-4a69-a186-cc7ab8ffc859" value="pwmY" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="pwmX" />
@@ -3422,6 +3424,11 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="0ecfcfff-f7a1-4893-8552-17c72b9f3790">
+      <Group key="0">
+        <Data key="Port Format" value="12,4" />
+      </Group>
+    </Group>
     <Group key="5f3bd1eb-ba8d-4ade-b136-830e09f7132e">
       <Group key="0">
         <Data key="Port Format" value="1,6" />
@@ -3442,6 +3449,11 @@
         <Data key="Port Format" value="1,6" />
       </Group>
     </Group>
+    <Group key="77acfa54-2935-4032-b56b-8e9a2adae63d">
+      <Group key="0">
+        <Data key="Port Format" value="1,2" />
+      </Group>
+    </Group>
     <Group key="1425177d-0d0e-4468-8bcc-e638e5509a9b">
       <Group key="0">
         <Data key="Port Format" value="12,6" />
@@ -3449,12 +3461,12 @@
     </Group>
     <Group key="a0875ab6-bcde-4a69-a186-cc7ab8ffc859">
       <Group key="0">
-        <Data key="Port Format" value="1,4" />
+        <Data key="Port Format" value="12,3" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
-        <Data key="Port Format" value="1,2" />
+        <Data key="Port Format" value="1,4" />
       </Group>
     </Group>
     <Group key="e5545b3c-c7e1-4f7e-992a-a50ed5fbdd72">

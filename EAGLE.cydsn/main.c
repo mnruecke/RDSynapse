@@ -23,6 +23,7 @@
 #define KEY_HALT_CONTINUOUS 'h'
 
 void init_psoc(void);
+void display_start_menue(void);
 void run_uart_interface(void);
 
 char sms[80];
@@ -48,6 +49,11 @@ void init_psoc(void)
     UART_Start();
     PWM_SequDuty_Start();
     
+    display_start_menue();
+}
+
+void display_start_menue(void)
+{
     UART_PutString("PSoC now running!\n\r"); 
     UART_PutString("\n\rMenue options:\n\r"); 
     UART_PutString("-------------------------------------------\n\r"); 
@@ -57,7 +63,7 @@ void init_psoc(void)
         UART_PutString(sms);
     sprintf(sms, "[%c]alt continuous mode\n\r", KEY_HALT_CONTINUOUS );
         UART_PutString(sms);
-    UART_PutString("[XXX] (three digit number) f_Y = f_Y0 + XXX"); 
+    UART_PutString("[XXX] (three digit number) f_Y = f_Y0 + XXX\n\r"); 
 }
 
 void run_uart_interface(void)
