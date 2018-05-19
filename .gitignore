@@ -1,0 +1,26 @@
+# Generated directories:
+*/Export
+*/Generated_Source
+*/codegentemp
+*/CortexM3
+Backup
+
+
+# Generated files:
+*.cydsn/*.cycdx
+*.cydsn/*.cyfit
+*.cydsn/*.rpt
+*.cydsn/*.svd
+*.cydsn/*.html
+*.cydsn/*.log
+
+
+# User files:
+*.cywrk.*
+*.cydsn/*.cyprj.*
+
+
+# Temporary files:
+*.swp
+
+
